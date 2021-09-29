@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.header{
+    height: 12vh;
+    width: 100%;
+    background-color: #263046;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    color: white;
+}
+.main-content{
+    max-width: var(--width-break);
+    margin:auto;
+}
+
+img{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+.layer{
+    position: absolute;
+    background-color: black;
+    height: 100vh;
+    opacity: 0.9;
+    width: 100vw;
+}
+
+#input-div{
+    height: 20vh;
+    width: 40vw;
+    position: absolute;
+     margin-top: 8rem; 
+     padding: 20px 10px;
+    background-color: transparent;
+    margin-left: 25rem;
+    margin-right: 25rem;    
+    border:5px solid #263046;
+    opacity: .9;
+    color: wheat;
+    font-size: 1.2rem;
+}
+
+#button-translate{
+    background-color: #263046;
+    margin-top: 18rem;
+    position: absolute;
+    border-radius: 5px;
+    height: 10vh;
+    width: 15%;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    border: 5px solid #cedbf7;
+    font-weight: bolder;
+    text-align: center;
+    opacity: 0.9;
+    color: #cedbf7;
+    font-weight: bold;
+}
+
+#output-div{
+    height: 20vh;
+    width: 40vw;
+    position: absolute;
+    margin-top: 25rem;
+    padding: 50px 10px;
+    background-color: transparent;
+    /* margin-right: 25rem;     */
+    border:5px solid #263046;
+    opacity: .9;
+    margin-left: 25rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: wheat;
+}
